@@ -1,0 +1,27 @@
+site_name: "Всевидящий Отец - База знаний"
+site_description: "Инструкции по подключению к VPN"
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search
+
+nav:
+  - Главная: index.md
+  - Клиенты: clients.md
+  - Windows: windows.md
+  - Android: android.md
+  - iOS: ios.md
+  - Решение проблем: troubleshooting.md
+  - Оплата: payment.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc
